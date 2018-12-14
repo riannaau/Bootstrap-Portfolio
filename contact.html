@@ -42,6 +42,21 @@
 	    height: 300px;
 	    margin-top: 15px;
 	    margin-left: 15px;}
+
+	    .bor {
+            border: 1px solid black;
+        }
+
+        .row{height: 300px;}
+
+        .banner{width: 400px;
+        	height:35px;
+        	background-color: #4aaaa5;
+  			position: absolute;
+  			top: 90%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);}
+
 	</style>  
 
 </head>
@@ -56,7 +71,7 @@
     
     <ul class="navbar-nav mr-auto" style="margin-left: 1000px;">
       <li class="nav-item active">
-        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
       </li>
 
         <li class="nav-item">
@@ -76,9 +91,23 @@
 		<div class="box2"><p class="about"><b>Contact</b></p></div>
 		<div style="margin-left: 15px; margin-right: 15px;"><hr/></div>
 
+<form>
+  <div class="form-group">
+    <label for="example-text-input">Name</label>
+     <input class="form-control" type="text" value="First Last" id="example-text-input">
+  </div>
 
 
-	</div>
+   <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+
+<div class="form-group" >
+     <label for="exampleTextarea">Message</label>
+    <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+
+  </div>
 
 
 </body>
